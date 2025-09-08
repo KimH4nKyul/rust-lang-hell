@@ -3,5 +3,5 @@ pub mod divider;
 pub mod subtracter;
 
 pub use adder::add;
-pub use divider::{divide, DivisionError};
+pub use divider::{DivisionError, divide};
 pub use subtracter::subtract;
